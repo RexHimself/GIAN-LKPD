@@ -21,8 +21,10 @@
 
     <main>
         <div class="kartu-profil">
+            <div id="kotak-pesan">
             <h2>Profil Siswa</h2>
             <p>Selamat datang di halaman utama website kami.</p>
+            <p id="pesanStatus">Sedang Memuat...</p>
         </div>
     </main>
 
@@ -31,7 +33,10 @@
     </footer>
 
     <script>
+        
         document.getElementById("judulUtama").innerHTML = "Selamat Datang Siswa";
+
+        document.getElementById("pesanStatus").textContent = "Data Berhasil Disimpan";
     </script>
 
 </body>
